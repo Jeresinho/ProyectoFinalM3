@@ -1,0 +1,80 @@
+.Turismo-body{
+    background: url(https://i.pinimg.com/originals/50/0c/48/500c4879bd825ad4b722271115b88fb6.jpg);
+    
+    background-repeat: repeat-y;
+    ; 
+  }
+header{
+    width: 80%;
+}
+nav{
+    height: 10vh;
+}
+.Img-Logo{
+    width: 10vw;
+}
+main, .principal{
+    height: 30vh;
+}
+main{
+    width: 80%;
+}
+.img-iconos{
+    width: 3vw;
+}
+img.MachuPichu{
+    width: 22vw;
+}
+img.Grecia{
+    width: 22vw;
+}
+img.Rascacielo{
+    width: 22vw;
+}
+img.Laguito{
+    width: 22vw;
+}
+img.Coliseo{
+    width: 22vw;
+}
+img.PerfilGriez{
+    width: 10vw;
+    border-radius: 50px;
+    
+}
+
+@media (max-width: 700px){
+header{
+    width: 100%;
+}
+main{
+    width: 100%;
+}
+.Img-Logo{
+    width: 18vw;
+}
+.Slogan-text{
+    font-size: 1.8vh;
+}
+img.MachuPichu{
+    width: 70vw;
+}
+img.Grecia{
+    width: 70vw;
+}
+img.Rascacielo{
+    width: 70vw;
+}
+img.Laguito{
+    width: 70vw;
+}
+img.Coliseo{
+    width: 70vw;
+}
+main.MainLaBoca img.Img-LaBoca{
+    width: 65vw !important;
+}
+main.MainLaBoca img.PerfilGriez{
+    width: 50vw;
+}
+}

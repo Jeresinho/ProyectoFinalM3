@@ -1,0 +1,84 @@
+.Gastronomia-body{
+  background: url(../img/Parrillada.jpg);
+  background-attachment: scroll;
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+}
+li{
+  color: rgba(28, 24, 29, 0.877);
+}
+
+.searchbar {
+  margin: 1rem;
+}
+
+.search-field {
+  width: 0;
+  height: 40px;
+  margin-left: 1rem;
+  padding: 0;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.expand-search {
+  width: 80%;
+  max-width: calc(80% - 3rem);
+  border: 1px solid #c9c9c9;
+  padding: .5rem;
+}
+
+svg {
+  width: 10px;
+  height: 10px;
+}
+
+.button {
+  border-radius: 50px;
+}
+
+img.MilanesaNapo{
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Comidas-Titulo{
+  overflow-y: scroll;
+  height: 750px;
+}
+
+@media (max-width: 700px){
+  img.MilanesaNapo{
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Comidas-Titulo{
+      overflow-y: scroll;
+      height: 500px;
+  }
+  .header-titulo{
+    max-height: 30vh;
+  }
+  .header-subtitulo{
+    max-height: 25vh;
+  }
+  .header-subtitulo h2{
+    font-size: 5vh;
+  }
+  .header-subtitulo p{
+    font-size: 3vh;
+  }
+
+}
+
+
